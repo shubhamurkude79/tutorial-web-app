@@ -14,6 +14,9 @@ import { CourseCategoriesComponent } from './course-categories/course-categories
   imports: [
     CommonModule,
     CoursesRoutingModule
+  ],
+  exports: [
+    CourseFeaturedComponent
   ]
 })
 export class CoursesModule { }

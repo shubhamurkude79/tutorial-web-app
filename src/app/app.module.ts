@@ -7,6 +7,10 @@ import { BannerComponent } from './banner/banner.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { CoursesModule } from './courses/courses.module';
+import { StaticpagesModule } from './staticpages/staticpages.module';
+import { AdminModule } from './admin/admin.module';
+import { AuthModule } from './auth/auth.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +22,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
   ],
   imports: [
     BrowserModule,
+    CoursesModule,
+    StaticpagesModule,
+    AdminModule,
+    AuthModule,
     AppRoutingModule
   ],
   providers: [],
