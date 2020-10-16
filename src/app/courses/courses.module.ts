@@ -10,7 +10,13 @@ import { CourseCategoriesComponent } from './course-categories/course-categories
 
 
 @NgModule({
-  declarations: [CourseFeaturedComponent, CourseListComponent, CourseDetailComponent, CourseRecentComponent, CourseCategoriesComponent],
+  declarations: [
+    CourseFeaturedComponent, 
+    CourseListComponent, 
+    CourseDetailComponent, 
+    CourseRecentComponent, 
+    CourseCategoriesComponent
+  ],
   imports: [
     CommonModule,
     CoursesRoutingModule
