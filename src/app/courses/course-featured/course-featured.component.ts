@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { CourseListComponent } from '../course-list/course-list.component';
+import { Course } from '../course.model';
 
 @Component({
   selector: 'app-course-featured',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./course-featured.component.css']
 })
 export class CourseFeaturedComponent implements OnInit {
+  @Input() course: Course;
+  @Input() courses: CourseListComponent;
 
   constructor() { }
 

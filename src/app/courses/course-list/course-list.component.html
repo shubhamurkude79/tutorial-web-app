@@ -2,14 +2,10 @@
   <div class="container">
     <h1>Courses</h1>
     <div class="row">
-      <div class="col-md-4" *ngFor="let course of courses">
-        <div class="blog-box">
-          <img [src]="course.imagePath" class="img-responsive" alt="{{ course.name }}" />
-          <h3 class="list-group-item-heading">{{ course.name }}</h3>
-          <p class="list-group-item-text">{{ course.description }}</p>
-          <a routerLink="/course/1" routerLinkActive="active" class="btn btn-danger">Read more...</a>
-        </div>
-      </div>
+      <app-course-item  
+        *ngFor="let courseEl of courses"
+        [course]="courseEl"
+        ></app-course-item>
     </div>
   </div>
 </section>

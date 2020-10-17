@@ -7,6 +7,7 @@ import { CourseListComponent } from './course-list/course-list.component';
 import { CourseDetailComponent } from './course-detail/course-detail.component';
 import { CourseRecentComponent } from './course-recent/course-recent.component';
 import { CourseCategoriesComponent } from './course-categories/course-categories.component';
+import { CourseItemComponent } from './course-item/course-item.component';
 
 
 @NgModule({
@@ -15,7 +16,7 @@ import { CourseCategoriesComponent } from './course-categories/course-categories
     CourseListComponent, 
     CourseDetailComponent, 
     CourseRecentComponent, 
-    CourseCategoriesComponent
+    CourseCategoriesComponent, CourseItemComponent
   ],
   imports: [
     CommonModule,
