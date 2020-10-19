@@ -1,10 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
 h1 {font-size: 2.4rem; margin-bottom: 30px;}
 .bg-blue {background-color:#1976d2;margin-bottom: 10px;}
 .navbar-brand img { height:30px; }
 .navbar-dark .navbar-nav .nav-link {color:#fff;}
 .navbar-dark .navbar-nav .active .nav-link {color:#fff;}
-.banner img {width:100%;}
+.banner img {width:100%; margin-top: -10px;}
 .blog-box {text-align: center; margin-bottom: 20px;}
 .blog-box h3 { margin:20px 0; font-size:22px; color:#000;}
 .blog-box p { color:#666; }
@@ -16,6 +17,12 @@ h1 {font-size: 2.4rem; margin-bottom: 30px;}
 .intro-text-box { width: 62%;margin: auto; background-color: rgba(96, 96, 96, 0.6);padding: 20px;border: 10px solid #808080;}
 .intro-text-box h1 {font-size:3em;}
 .spacer {flex: 1;}
+.exceptional-class {
+    text-align: center;
+    margin-top: 150px;
+    font-size: x-large;
+    font-weight: 600;
+}
 
 .blog-right h3 {background-color:#000;color: #fff; padding:5px 15px;font-size:20px;}
 .detail-img {margin:40px 0px;}

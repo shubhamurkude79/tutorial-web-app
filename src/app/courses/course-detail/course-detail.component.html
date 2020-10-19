@@ -1,14 +1,13 @@
 <section class="blog-detail mtb-40">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
                 <div class="blog-left">
                     <h1>{{ course.name }}</h1>
                     <div class="posted-on">
                         <p>by <span>Shubsoft Tutorials</span> on <span>October 16, 2020</span></p>
                     </div>
                     <div class="detail-img">
-                        <img [src]="course.imagePath" alt="course.name" />
+                        <img [src]="course.imagePath" alt="course.name" class="img-responsive" />
                     </div>
                     <div class="blog-desc">
                         <p>{{ course.description }}</p>
@@ -37,7 +36,6 @@
 
                     </div>
                 </div>
-            </div>
         </div>
     </div>
 </section>

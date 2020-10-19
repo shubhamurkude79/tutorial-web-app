@@ -1,11 +1,10 @@
-<a 
-  href="#" 
-  class="list-group-item clearfix"
+<a class="list-group-item clearfix"
   (click)="onSelected()">
-  <div class="blog-box">
-    <img [src]="course.imagePath" class="img-responsive" alt="{{ course.name }}" />
-    <h3 class="list-group-item-heading">{{ course.name }}</h3>
-    <p class="list-group-item-text">{{ course.description }}</p>
-    <a routerLink="/course/{{course.id}}" routerLinkActive="active" class="btn btn-danger">Read more...</a>
+  <div class="pull-left">
+    <img [src]="course.imagePath" class="img-responsive" style="max-height: 80px;" alt="{{ course.name }}" />
+    
+  </div>
+  <div class="pull-right">
+    <h4 class="list-group-item-heading">{{ course.name }}</h4>
   </div>
 </a>
