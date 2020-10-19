@@ -1,11 +1,13 @@
-<section class="blog-list mtb-40">
-  <div class="container">
-    <h1>Courses</h1>
-    <div class="row">
-      <app-course-item  
-        *ngFor="let courseEl of courses"
-        [course]="courseEl"
-        ></app-course-item>
-    </div>
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success">New Recipe</button>
   </div>
-</section>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <h1>Courses</h1>
+    <app-course-item *ngFor="let courseEl of courses" [course]="courseEl" (courseSelected)="onCourseSelected(courseEl)">
+    </app-course-item>
+  </div>
+</div>

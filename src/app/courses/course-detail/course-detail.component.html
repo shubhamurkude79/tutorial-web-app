@@ -3,14 +3,15 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="blog-left">
-                    <h1>Angular 8 Full Course</h1>
+                    <h1>{{ course.name }}</h1>
                     <div class="posted-on">
                         <p>by <span>Shubsoft Tutorials</span> on <span>October 16, 2020</span></p>
                     </div>
                     <div class="detail-img">
-                        <img src="assets/images/img1.png" alt="blog1" />
+                        <img [src]="course.imagePath" alt="course.name" />
                     </div>
                     <div class="blog-desc">
+                        <p>{{ course.description }}</p>
                         <p>The Angular is the newest form of the AngularJS, developed by Google, which is an open-source
                             front-end development platform used for building mobile and desktop web applications.
                             Angular is rewritten by the same team that built AngularJS.</p>
@@ -36,10 +37,6 @@
 
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <app-course-recent></app-course-recent>
-                <app-course-categories></app-course-categories>
             </div>
         </div>
     </div>
