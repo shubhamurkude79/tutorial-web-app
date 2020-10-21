@@ -1,11 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
 h1 {font-size: 2.4rem; margin-bottom: 30px;}
-a {color: #000;}
-.detail-top-spacing {margin:40px;}
-.content-style p { text-align: justify;}
-a:hover{ text-decoration: none; cursor: pointer; background-color: lightblue;}
-.bg-blue {background-color:#1976d2;margin-bottom: 10px;}
 .navbar-brand img { height:30px; }
 .navbar-dark .navbar-nav .nav-link {color:#fff;}
 .navbar-dark .navbar-nav .active .nav-link {color:#fff;}
@@ -27,6 +22,12 @@ a:hover{ text-decoration: none; cursor: pointer; background-color: lightblue;}
     font-size: x-large;
     font-weight: 600;
 }
+.anchor-separate-css a {color: #000;}
+.anchor-separate-css a:hover{ text-decoration: none; cursor: pointer; background-color: lightblue;}
+.detail-top-spacing {margin:40px;}
+.content-style p { text-align: justify;}
+.bg-blue {background-color:#1976d2;margin-bottom: 10px;}
+.button-position button { margin:10px }
 
 .blog-right h3 {background-color:#000;color: #fff; padding:5px 15px;font-size:20px;}
 .detail-img {margin:40px 0px;}

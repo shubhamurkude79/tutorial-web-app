@@ -1,10 +1,11 @@
-<a class="list-group-item clearfix"
-  (click)="onSelected()">
-  <div class="pull-left">
-    <img [src]="course.imagePath" class="img-responsive" style="max-height: 80px;" alt="{{ course.name }}" />
-    
-  </div>
-  <div class="pull-right">
-    <h4 class="list-group-item-heading">{{ course.name }}</h4>
-  </div>
-</a>
+<div class="anchor-separate-css">
+  <a class="list-group-item clearfix" (click)="onSelected()">
+    <div class="pull-left">
+      <img [src]="course.imagePath" class="img-responsive" style="max-height: 80px;" alt="{{ course.name }}" />
+
+    </div>
+    <div class="pull-right">
+      <h4 class="list-group-item-heading">{{ course.name }}</h4>
+    </div>
+  </a>
+</div>
