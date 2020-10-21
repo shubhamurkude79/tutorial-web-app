@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { EventEmitter, Injectable } from '@angular/core';
 
 import { Course } from './course.model';
 
@@ -6,6 +6,7 @@ import { Course } from './course.model';
   providedIn: 'root'
 })
 export class CoursesService {
+  courseSelected = new EventEmitter<Course>();
   
   private courses: Course[] = [
     new Course('Angular 8 Full Course', 'Angular 8 is released in May 2019, just like it was scheduled. The new features of the framework are the updated form of Node 10..', 'assets/images/img1.png', 1),

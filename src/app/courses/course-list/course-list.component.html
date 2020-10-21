@@ -9,8 +9,7 @@
     <h1>Courses</h1>
     <app-course-item
       *ngFor="let courseEl of courses"
-      [course]="courseEl"
-      (courseSelected)="onCourseSelected(courseEl)">
+      [course]="courseEl">
     </app-course-item>
   </div>
 </div>
