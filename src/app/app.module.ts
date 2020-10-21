@@ -12,6 +12,7 @@ import { StaticpagesModule } from './staticpages/staticpages.module';
 import { AdminModule } from './admin/admin.module';
 import { AuthModule } from './auth/auth.module';
 import { EmployeeserviceService } from './auth/employeeservice.service';
+import { CoursesService } from './courses/courses.service';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,7 @@ import { EmployeeserviceService } from './auth/employeeservice.service';
     AuthModule,
     AppRoutingModule
   ],
-  providers: [EmployeeserviceService],
+  providers: [EmployeeserviceService, CoursesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
